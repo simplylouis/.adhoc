@@ -1,2 +1,2 @@
 # dotfiles
-## Just a branch of dotfiles @ OS X
+Just a branch of dotfiles @ OS X
