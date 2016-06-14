@@ -1,6 +1,6 @@
 export LANG="en_US.utf8"
-export LANGUAGE="en_US.utf8"
 export LC_ALL="en_US.utf8"
+export LANGUAGE="en_US.utf8"
 alias tmux="TERM=screen-256color-bce tmux"
 cd /var/www/
 # ~/.bashrc: executed by bash(1) for non-login shells.
