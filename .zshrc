@@ -84,3 +84,24 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # Show Time
 RPROMPT="[%*]"
+
+export LANG="en_US.utf8"
+export LANGUAGE="en_US.utf8"
+export LC_ALL="en_US.utf8"
+function jj() {
+    if [ "$1" != "" ]
+    then
+      vim ~/snippets/$1
+    else
+      vim ~/snippets/$(date +%F)
+    fi
+}
+alias ga="git add ."
+alias gs="git status"
+alias gc="git commit"
+alias gl="ls -lah && git status"
+alias c="clear"
+
+#alias jj="vim ~/snippets/$(date +%F)"
+#alias jk="vim ~/snippets/"
+
